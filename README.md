@@ -8,7 +8,7 @@
   ```
 2. Clone or download project:
 ```
-git clone https://github.com/hero9/test-task-greetgo
+git clone https://github.com/hero9/timeseries
 ```
 3. Open terminal, go to project path and run:
 ```
