@@ -1,33 +1,25 @@
-# \<zeinetsse\>
+# Timeseries
 
+## Running project
 
-
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-
-## Viewing Your Application
-
+1. First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. If not update your node, then open terminal and run:
+  ```
+  sudo npm install polymer-cli -g
+  ```
+2. Clone or download project:
 ```
-$ polymer serve
+git clone https://github.com/hero9/test-task-greetgo
 ```
-
-## Building Your Application
-
+3. Open terminal, go to project path and run:
 ```
-$ polymer build
+npm i
+bower i
 ```
-
-This will create builds of your application in the `build/` directory, optimized to be served in production. You can then serve the built versions by giving `polymer serve` a folder to serve from:
-
+4. Go to project path and run:
 ```
-$ polymer serve build/default
+npm start
 ```
+5. You've done. The latest command will open browser and navigate to: `http://localhost:3000/`.
 
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+## App screenshot
+![timeseries-engine_pcd](https://user-images.githubusercontent.com/22573860/42241258-c0d6c252-7f2b-11e8-8d5f-c374858fde7e.png)
