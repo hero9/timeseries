@@ -1,0 +1,23 @@
+{
+  "name": "zeinetsse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "polymer build && nodemon ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "influx": "^5.0.7",
+    "nodemon": "^1.17.5",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}

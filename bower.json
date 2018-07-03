@@ -1,0 +1,13 @@
+{
+  "name": "zeinetsse",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "px-vis-timeseries": "^4.0.1",
+    "numbro-element": "^1.0.8"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  }
+}
